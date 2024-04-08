@@ -1,3 +1,40 @@
+## Dados gerais sobre o projeto
+
+O desafio que apresentamos consiste na criação de dois projetos com uma finalidade comum:
+um software destinado a listar as notícias mais significativas do Brasil no momento. Para cumprir essa tarefa com êxito, por favor, atente-se aos seguintes critérios:
+
+1) Deve ser implementada uma funcionalidade que permita ao usuário,
+- ao selecionar uma notícia de seu interesse, ser redirecionado para uma página com todas as informações pertinentes à notícia escolhida.
+- Além disso, nesta mesma página, algo deve ser clicável para possibilitar ao usuário a visualização completa da notícia no site oficial. - OK
+
+2) O software deve proporcionar aos usuários a capacidade de filtrar as notícias.
+
+Incentivamos a implementação de sua criatividade para assegurar um resultado tanto inovador quanto eficaz.
+
+As notícias para este desafio podem ser adquiridas através desta API pública:
+http://servicodados.ibge.gov.br/api/v3/noticias/
+
+Confira a documentação da API neste link:
+https://servicodados.ibge.gov.br/api/docs/noticias?versao=3
+
+Os projetos que desejamos ver concretizados incluem um layout Web utilizando o NextJS e um aplicativo móvel com React Native - Expo.
+Ambos os projetos devem ser desenvolvidos em
+- TypeScript,
+- com estilização Tailwind CSS,
+- formulários com React Hook Form e
+- requisições com React Query.
+
+Embora os testes específicos não sejam obrigatórios, eles são muito bem-vindos e apreciados por nossa equipe.
+
+Seu desempenho será avaliado com base na realização satisfatória dos objetivos propostos, seu domínio das tecnologias mencionadas, a qualidade do seu código e a documentação adequada dos seus projetos.
+
+# Commands
+Next
+- npx create-next-app@latest
+- npm i @tanstack/react-query react-hook-form
+
+------------------------------------------------------------------
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
