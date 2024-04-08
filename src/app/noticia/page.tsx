@@ -10,7 +10,6 @@ export default function Page() {
   const titulo: string = searchParams.get("titulo") ?? ""
   const introducao: string | null = searchParams.get("introducao")
   const data_publicacao: string | null = searchParams.get("data_publicacao")
-  const produtos: string | null = searchParams.get("produtos")
   const editorias: string | null = searchParams.get("editorias")
   const imagens: string = searchParams.get("imagens") ?? ""
 
@@ -30,14 +29,14 @@ export default function Page() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <h1>IBGE Notícias</h1>
-      <h2>Notícia - {titulo}</h2>
+      <h2>Notícia</h2>
+      <p>{titulo}</p>
       <br />
       <br />
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <ul>
           <li>Introdução: {introducao}</li>
           <li>Data publicação: {data_publicacao}</li>
-          <li>Produtos: {produtos}</li>
           <li>Editorias: {editorias}</li>
           <Image
             src={`https://${domain}/${imageIntroURL}`}
